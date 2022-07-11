@@ -1,0 +1,10 @@
+const Find_Prod = (array, N) => 
+{
+    let product = 1;
+    for(let k = 0; k < N; k++)
+    {
+        product = product * array[k];
+    }
+    return product;
+};
+console.log(Find_Prod( [1, 2, 3, 4, 5] , 5) );

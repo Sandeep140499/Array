@@ -1,0 +1,11 @@
+const findCount = (N, K, Arr) =>
+{
+    let count = 0;
+    for(let k = 0; k <= N; k++)
+    {
+        if( K == Arr[k])
+        count++
+    }
+    return count;
+}
+console.log(findCount( 4, 3, [3,3,1,2] ));

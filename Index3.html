@@ -1,0 +1,17 @@
+const findEvenOdd = (N, Arr) => 
+{
+    let addition = [0 , 0];
+    for(let k = 0; k < N; k++)
+    {
+      if(Arr[k] % 2 === 0)
+      {
+	addition[0] += Arr[k];
+      }
+      else
+      {
+	addition[1] += Arr[k];
+      }
+    }
+    return addition;
+};
+console.log(findEvenOdd( 7,[1,2,3,4,5,6,7] ));
